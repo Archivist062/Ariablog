@@ -1,0 +1,1 @@
+<?php Auth($_POST["username"],$_POST["password"]) ?>

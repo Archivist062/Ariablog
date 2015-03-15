@@ -1,0 +1,97 @@
+*{
+font-family: 'Lora', serif;
+font-size:initial;
+	text-align: justify;
+}
+
+h1{
+	vertical-align: center;
+	padding-top: 0em;
+font-family: 'Share Tech Mono' ;
+font-size:450%;
+	color: #88DDCD;
+	text-align: left;
+}
+h2{
+	font-family: 'Inconsolata' ;
+font-size:160%;
+	text-align: left;
+}
+h3{
+	font-family: 'Inconsolata' ;
+font-size:135%;
+	text-align: left;
+}
+h4{
+	font-family: 'Inconsolata' ;
+font-size:127%;
+	text-align: left;
+}
+h5{
+	font-family: 'Inconsolata' ;
+font-size:125%;
+	text-align: left;
+}
+h6{
+	font-family: 'Inconsolata' ;
+font-size:123%;
+	text-align: left;
+}
+
+.menuitem{
+display: inline;
+	color: #FFFFFF;
+font-family: 'Inconsolata', ;
+	font-variant: small-caps;
+	font-style: bold;
+	text-decoration: none;
+font-size:165%;
+	margin-right: 1em;
+}
+
+.menuitem a:link{
+	color: #FFFFFF;
+	font-family: 'Inconsolata' ;
+	font-variant: small-caps;
+	font-style: bold;
+	text-decoration: none;
+font-size:165%;
+}
+
+.menuitem a:visited{
+	color: #FFFFFF;
+	font-family: 'Inconsolata' ;
+	font-variant: small-caps;
+	font-style: bold;
+	text-decoration: none;
+font-size:165%;
+}
+
+.menuitem a:hover{
+	color: #FFFFFF;
+	font-family: 'Inconsolata' ;
+	font-variant: small-caps;
+	font-style: bold;
+	text-decoration: none;
+font-size:165%;
+}
+
+.menuitem a:active{
+	color: #FFFFFF;
+	font-family: 'Inconsolata' ;
+	font-variant: small-caps;
+	font-style: bold;
+	text-decoration: none;
+font-size:165%;
+}
+
+.caption{
+	margin-top:-1.2em;
+	font-size:60%;
+	font-style: italic;
+}
+
+.menu{
+	margin-top:0px;
+	margin-left:170px;
+}

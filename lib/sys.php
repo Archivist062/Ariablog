@@ -183,7 +183,15 @@ function cfgget($key)
 		{
 			if(is_array($id))
 			{
-				// TODO
+			$i=0
+				foreach($nbid in $id)
+				{
+					$i=$i+1;
+					if($i<($nb+$paged*$nb) && $i>($paged*$nb))
+					{
+						LoadItem($type,$nbid,1);
+					}
+				}
 			}
 			else
 			{
@@ -333,7 +341,7 @@ function cfgget($key)
 
 	function UserIn($group)
 	{
-		$stmt = getpdo()->prepare("SELECT  1 FROM (User JOIN User_In_Group ON User.user_id = User_In_Group.user_id) AS IdLnk INNER JOIN AGroup ON IdLnk.group_id = AGroup.group_id WHERE user_name = :username AND group_name = :group;");
+		$stmt = getpdo()->prepare("SELECT 1 FROM (User JOIN User_In_Group ON User.user_id = User_In_Group.user_id) AS IdLnk INNER JOIN AGroup ON IdLnk.group_id = AGroup.group_id WHERE user_name = :username AND group_name = :group;");
 		$stmt->execute(
 			array(
 				'username' => $_SESSION['username'],
@@ -349,7 +357,7 @@ function cfgget($key)
 
 	function Auth($username, $password)
 	{
-		$stmt = getpdo()->prepare("SELECT  1 FROM User WHERE user_name = :username AND user_password = :password;");
+		$stmt = getpdo()->prepare("SELECT 1 FROM User WHERE user_name = :username AND user_password = :password;");
 		$stmt->execute(
 			array(
 				'username' => $username,

@@ -183,8 +183,8 @@ function cfgget($key)
 		{
 			if(is_array($id))
 			{
-			$i=0
-				foreach($nbid in $id)
+				$i=0;
+				foreach($id as $nbid)
 				{
 					$i=$i+1;
 					if($i<($nb+$paged*$nb) && $i>($paged*$nb))

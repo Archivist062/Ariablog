@@ -1,5 +1,5 @@
 <div id="page" class="row">
-	<div class="column large-8">
+	<div class="col-lg-8 col-lg-offset-2">
 		<h2>Accueil</h2>
 
 		Bienvenue sur votre home.<br/><br/>

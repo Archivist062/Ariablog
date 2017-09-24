@@ -9,7 +9,7 @@
 	}
 ?>
 <div id="page" class="row">
-	<div class="column large-12">
+	<div class="col-lg-8 col-lg-offset-2">
 
 		<h2><?= $page_title ?></h2>
 		<div><?= $page_content?></div>

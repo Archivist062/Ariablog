@@ -9,13 +9,13 @@
 	}
 ?>
 <div id="page" class="row">
-	<div class="col-lg-8 col-lg-offset-2">
+	<div class="col-lg-8 col-md-12 col-sm-12  col-lg-offset-2">
 
 		<h2><?= $page_title ?></h2>
 		<div><?= $page_content?></div>
-		<div>
+		<!--<div>
 		<?php LoadPosts($page_title) ?>
-		</div>
+		</div>-->
 	</div>
 </div>
 <?php

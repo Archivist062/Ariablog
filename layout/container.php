@@ -6,6 +6,11 @@
 		<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono|Lora|Inconsolata' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/png" href="img/favicon.png" />
         <title><?=$sup_page_title?></title>
+        <style>
+        p{
+        	text-align:justify;
+        }
+        </style>
     </head>
     <body>
 		<?php (Build($mode)) ?>

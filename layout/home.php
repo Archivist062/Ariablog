@@ -1,17 +1,12 @@
 <div id="page" class="row">
-	<div class="col-lg-8 col-lg-offset-2">
-		<h2>Accueil</h2>
+	<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
+		<h2>Home</h2>
 
-		Bienvenue sur votre home.<br/><br/>
+		<p>Welcome on your home page.</p>
 		
-		Je me nomme Ludovic Lagouardette. Développeur de formation, et je vais vous aider a rendre ce site plus personalisé.<br/><br/>
+		<p>AriaBlog is a small somewhat frameworky template to make websites really fast. With it, making a static website design comprised is a matter of 3 hours for any trained PHP (5 or 7) developer.</p>
 		
-		Tout d'abord, si vous avez un logo, envoyez le dans le dossier "img" de la racine du site. S'il remplace "logo.png", il sera affiché directement. Ensuite, éditez la base de données avec le logiciel de votre choix (par exemple: http://sqlitebrowser.org/) et dans la table 'config' changez le sitename comme il vous plait et changez l'utilisateur.<br/><br/>
-		
-		Vous êtes sur la bonne voie, ajoutez des pages et comme par magie, elle apparaitrons dans le site. ajoutez leur des hashtags et seuls les posts avec ses hashtags apparaitrons dessus. Vous pouvez aussi utiliser l'interface admin si vous voulez, mais elle ne gere pas les hashtags pour l'instant.<br/><br/>
-		
-		Ajoutez des posts et tout sera fait automatiquement. Changez le design grace au CSS et si cela ne suffit pas lisez le README.txt et changez vos layouts!
-		
+		<p>It is meant to be simple, for this reason, it is fully based on a single SQLite database and a single entry point. To make a simple website, just add pages in the database using a simple SQLite graphical client, tweak the layouts to your liking and here you go !</p>
 		<?php LoadAllPosts() ?>
 	</div>
 </div>
